@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask</title>
+    </head>
+    <body>
+        <h1>Eu sou... {{ index_variable }}!</h1>
+        <h3>Olá, eu sou o {{student_name}}!</h3>
+        <img src="{{url_for('static',filename='1.png')}}">
+        <p>criando um aplicativo Flask</p>
+        <p>uma página Web</p>
+        <form>
+            <label for="fname">primeiro nome</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <br>
+        </form>
+        <button type="button">clique em mim</button>
+    </body>
+</html>
